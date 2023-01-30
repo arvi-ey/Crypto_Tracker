@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');.main_div{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-top: 5px;
+    position: fixed;
+    background-color:aliceblue;
+}
+.Loading_container{
+    font-family:'Montserrat', sans-serif;;
+    font-size: 100px;
+    font-weight: bolder;
+    align-items: center;
+}
+.graph_page{
+    display: flex;
+    flex-direction: column;
+    height:700px;
+    width: 950px;
+    -webkit-box-shadow: -7px 5px 38px -21px rgba(245,240,245,1);
+-moz-box-shadow: -7px 5px 38px -21px rgba(245,240,245,1);
+box-shadow: -7px 5px 38px -21px rgba(245,240,245,1);
+    justify-content:space-around;
+    position:fixed;
+    margin-top: 60px;
+}
+
+.coin_content{
+    height:600px;
+    width: 920px;
+    -webkit-box-shadow: 36px 16px 188px -64px rgba(120,119,120,0.79);
+    -moz-box-shadow: 36px 16px 188px -64px rgba(120,119,120,0.79);
+    box-shadow: 36px 16px 188px -64px rgba(120,119,120,0.79);
+background-color: rgb(245, 245, 238);
+    border-radius: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:aliceblue;
+    margin-top: 0%;
+}
+.underLine_chart{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    height: fit-content;
+    width: 800px;
+    background:none;
+}
+.bar_chart{
+width:350px;
+height:180px;
+background-color: rgb(255, 255, 255);
+color: aliceblue;
+border-radius: 30px;
+-webkit-box-shadow: 36px 16px 188px -64px rgba(120,119,120,0.79);
+    -moz-box-shadow: 36px 16px 188px -64px rgba(120,119,120,0.79);
+    box-shadow: 36px 16px 188px -64px rgba(120,119,120,0.79);
+    text-align: center;
+
+}
+.donut_chart{
+    background-color: rgb(228, 220, 220);
+    width:350px;
+    height:180px;
+    border-radius: 30px;
+    -webkit-box-shadow: 36px 16px 188px -64px rgba(120,119,120,0.79);
+    -moz-box-shadow: 36px 16px 188px -64px rgba(120,119,120,0.79);
+    box-shadow: 36px 16px 188px -64px rgba(120,119,120,0.79);
+    text-align: center;
+    color: aliceblue;
+
+}
+.Line_chart{
+    margin: 30px 0px 0px 50px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    width:900px
+}
