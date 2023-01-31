@@ -5,7 +5,6 @@ export const CoinDetail
   return (
     <div className='mainDetail'>
         <h1>
-        <img src = {props.image} alt = 'crypto' />
           {props.name.toUpperCase()}</h1>
           
     </div>
